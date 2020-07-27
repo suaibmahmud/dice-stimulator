@@ -5,6 +5,8 @@ x = 'y'
 while x == 'y':
 
     num = random.randint(1, 6)
+    # randint(from, to)
+    # it takes only integers
 
     if num == 1:
         print('----------')
