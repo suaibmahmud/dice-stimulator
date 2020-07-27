@@ -14,6 +14,8 @@
 
         TextInput:
             id: output
+            # display the dice
+
             multiline: True
             halign: 'center'
             margin: 10
@@ -26,6 +28,8 @@
 
         TextInput:
             id: output_2
+            # display the dice number
+
             multiline: False
             halign: 'right'
             font_size: 15
@@ -43,4 +47,3 @@
         Button:
             text: 'Roll'
             on_press: dice.stimulator()
-
