@@ -1,0 +1,46 @@
+<Button>:
+    font_size: 20
+
+<Dice>:
+    id: dice
+    d_out: output
+    d_out_2: output_2
+    rows: 3
+    padding: 0
+    spacing: 0
+
+    BoxLayout:
+        padding: 0
+
+        TextInput:
+            id: output
+            multiline: True
+            halign: 'center'
+            margin: 10
+            font_size: 45
+
+    BoxLayout:
+        padding: 5
+        spacing: 0
+        size_hint: 0.15, 0.15
+
+        TextInput:
+            id: output_2
+            multiline: False
+            halign: 'right'
+            font_size: 15
+            bold: True
+
+    BoxLayout:
+        padding: 5
+        spacing: 10
+        size_hint: 0.25, 0.25
+
+        Button:
+            text: 'Clear'
+            on_press: dice.clean()
+
+        Button:
+            text: 'Roll'
+            on_press: dice.stimulator()
+
