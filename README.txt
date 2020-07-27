@@ -1,6 +1,6 @@
 Here,
   main.py and dicestimulator.kv is attached.
-  dice stimulator using console.py is different file.
+  dice stimulator using console.py is a different file.
 
 For main.py and dicestimulator.kv:
 1. Create your own project
